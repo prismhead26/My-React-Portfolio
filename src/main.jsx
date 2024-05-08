@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
@@ -11,6 +12,8 @@ import Error from './pages/Error';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 const router = createBrowserRouter([
   {
@@ -29,8 +32,15 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact/>,
-      }
-
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio/>,
+      },
+      {
+        path: '/resume',
+        element: <Resume/>,
+      },
     ],
   },
 ])
