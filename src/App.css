@@ -10,9 +10,28 @@ img {
   display: flex;
   width: 100%;
   height: 100%;
+  z-index: 1;
 }
 
 img:hover {
+  opacity: 0.5;
+}
+/* Hover Effect for all links and nav effects */
+.custom {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  border-radius: 15px;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.custom:hover {
+  box-shadow: inset 200px 0 0 0 #54b3d6;
+  color: white;
+}
+
+a:hover ~ img {
   opacity: 0.5;
 }
 
@@ -44,15 +63,18 @@ form {
 
 .card-icon{
   position: absolute;
-  top: 44%;
-  right: 30%;
+  top: 15%;
+  right: 70%;
   padding: 1em;
 }
 
+.card-title, .card-icon {
+  z-index: 2;
+}
 
 .card-content {
-  border: 1px solid lightblue;
-  border-radius: 10px;
+  border: 8px solid lightblue;
+  border-radius: 20px;
   position: relative;
   color: transparent;
 }

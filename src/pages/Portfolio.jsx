@@ -5,25 +5,27 @@ const test = {
     git: "test"
 }
 
+import appData from '../appData.js';
+
+const MAX_APPS = 5;
+
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 
 export default function Portfolio() {
     return <>
-        <div>
-            <h1>Portfolio</h1>
-            <p>These are some of my projects</p>
+        <article>
+            <h1><b>Portfolio</b></h1>
+            <p><i>❆ These are some of my projects ❆</i></p>
             <div className='card-container'>
                 <Card {...test} />
-                <Card {...test} />
-                <Card {...test} />
-                <Card {...test} />
-                <Card {...test} />
-                <Card {...test} />
+            {appData.slice(0, MAX_APPS).map((app, index) => (
+                <Card key={index} {...app} />
+            ))}
             </div>
-        </div>
-        <div className='m-3'>
+        </article>
+        <section className='m-3'>
             <Footer/>
-        </div>
+        </section>
     </>
 }

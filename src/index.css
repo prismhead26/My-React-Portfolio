@@ -1,4 +1,4 @@
-button {
+.custom-btn {
   border: 1px solid transparent;
   border-radius: 10px;
   cursor: pointer;
@@ -10,16 +10,19 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
 }
-button:hover {
+
+.custom-btn:hover {
   border-color: #646cff;
   background-color: lightblue;
   border-radius: 10px;
 }
-button:focus,
-button:focus-visible {
+
+.custom-btn:focus,
+.custom-btn:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-button:active {
+
+.custom-btn:active {
   background-color: lightblue;
   box-shadow: 0 5px #666;
   transform: translateY(4px);

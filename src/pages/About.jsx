@@ -2,12 +2,12 @@ import Footer from '../components/Footer';
 
 export default function About(){
     return <>
-            <div>
-                <h1>About</h1>
+            <article>
+                <h1><b>About Me</b></h1>
                 <p>This is the about page</p>
-            </div>
-            <div className='mx-3'>
+            </article>
+            <section className='mx-3'>
                 <Footer/>
-            </div>
+            </section>
         </>
 }
