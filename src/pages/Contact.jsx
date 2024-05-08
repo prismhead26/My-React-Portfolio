@@ -14,9 +14,9 @@
             console.log('Email:', email);
             console.log('Message:', message);
 
-        // TODO: Add your emailjs code here to send the email
+        // Add your emailjs code here to send the email
 
-            emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', e.target, 'YOUR_USER_ID') 
+            emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, e.target, import.meta.env.VITE_USER_ID)
 
 
             setName('');
@@ -38,6 +38,7 @@
                             className='form-control text-center'
                             type="text"
                             id="name"
+                            name='user_name'
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                         />
@@ -48,6 +49,7 @@
                             className='form-control text-center'
                             type="email"
                             id="email"
+                            name='user_email'
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                         />
@@ -57,6 +59,7 @@
                         <textarea
                             className='form-control text-center'
                             id="message"
+                            name='message'
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                         ></textarea>
