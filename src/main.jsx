@@ -1,13 +1,13 @@
 // import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './index.css'
+import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import App from './App';
+import App from './Darkmode';
 import Error from './pages/Error';
 import About from './pages/About';
 import Contact from './pages/Contact';

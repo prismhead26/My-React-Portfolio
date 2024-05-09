@@ -1,18 +1,13 @@
-import { Outlet } from 'react-router-dom'
-import Nav from './components/Nav'
-import './App.css'
+import { Outlet } from "react-router-dom";
+import Nav from "./components/Nav";
 
-
-function App() {
-
+export default function App({ style }) {
   return (
-    <>
-    <Nav />
-    <main className="mx-3">
-      <Outlet />
+    <main className="main-content">
+      <Nav />
+        <div style={ style }>
+            <Outlet />
+      </div>
     </main>
-    </>
-  )
+  );
 }
-
-export default App

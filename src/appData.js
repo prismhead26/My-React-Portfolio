@@ -1,7 +1,7 @@
 const appData = [
     {
         title: "Tech-Talk Blog",
-        image: "https://via.placeholder.com/150",
+        image: "/tech_talk.png",
         link: "https://tech-talk-blogger-726329b88ecf.herokuapp.com/",
         git: "https://github.com/prismhead26/Tech-Talk-Blog?tab=readme-ov-file"
     },
@@ -13,7 +13,7 @@ const appData = [
     },
     {
         title: "TrackNHeal-Project",
-        image: "https://via.placeholder.com/150",
+        image: "/track_n_heal.png",
         link: "https://tracknheal-be5b35216eb1.herokuapp.com/",
         git: "https://github.com/prismhead26/Patient-Portal-App-Team-Colab"
     },

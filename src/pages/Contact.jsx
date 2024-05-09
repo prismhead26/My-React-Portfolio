@@ -41,6 +41,7 @@
                             name='user_name'
                             value={name}
                             onChange={(e) => setName(e.target.value)}
+                            required
                         />
                     </div>
                     <div className='my-3'>
@@ -52,6 +53,7 @@
                             name='user_email'
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
+                            required
                         />
                     </div>
                     <div className='my-3'>
@@ -62,6 +64,7 @@
                             name='message'
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
+                            required
                         ></textarea>
                     </div>
                     <button className='custom-btn' type="submit">Send</button>
