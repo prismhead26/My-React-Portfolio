@@ -32,13 +32,14 @@ function Darkmode() {
     <ThemeProvider theme={appTheme}>
       <GlobalStyles
         styles={{
-          body: { backgroundColor: mode ? grey[900] : blue[50],
+          body: {
+            backgroundColor: mode ? grey[900] : blue[50],
             height: "100vh",
           },
         }}
       />
       <Paper elevation={0} sx={{ height: "100vh" }} square>
-        <App style={{backgroundColor: mode ? grey[900]: '#186e08'}}/>
+        <App style={{ backgroundColor: mode ? grey[900] : "#186e08" }} />
         <FormControlLabel
           control={
             <Switch
@@ -46,6 +47,7 @@ function Darkmode() {
               onChange={() => setMode(!mode)}
               inputProps={{ "aria-label": "controlled" }}
               className="switch"
+              style={{ position: "absolute", bottom: "0px" }}
             />
           }
           label="Dark Mode Toggle"

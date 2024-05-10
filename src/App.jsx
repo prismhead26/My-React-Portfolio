@@ -3,9 +3,9 @@ import Nav from "./components/Nav";
 
 export default function App({ style }) {
   return (
-    <main className="main-content">
+    <main className="main-content" style={ style }>
       <Nav />
-        <div style={ style }>
+        <div >
             <Outlet />
       </div>
     </main>

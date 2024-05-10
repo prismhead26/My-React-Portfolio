@@ -6,7 +6,7 @@ export default function Card({ title, image, link, git }) {
             <a className="custom card-icon px-3" href={git}>
                 <i className="bi bi-github h1"></i>
             </a>
-            <img src={image} alt={title} />
+            <img className="card-image" src={image} alt={title} />
         </div>
     )
 }

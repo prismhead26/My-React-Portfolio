@@ -26,12 +26,11 @@
 
         return (
             <>
-                <section className='flex'>
-                    <h1><b>Contact</b></h1>
-                    <p>This is the contact page</p>
+                <section className='container flex my-3'>
+                    <h1><b><i>Contact Me</i></b></h1>
                 </section>
 
-                <form onSubmit={handleSubmit} className='container-sm flex item-center'>
+                <form onSubmit={handleSubmit} className='container-sm flex my-3 justify-between items-center'>
                     <div className='my-3'>
                         <label htmlFor="name">Name:</label>
                         <input

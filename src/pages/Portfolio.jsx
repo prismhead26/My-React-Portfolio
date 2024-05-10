@@ -7,7 +7,7 @@ import Footer from '../components/Footer';
 
 export default function Portfolio() {
     return <>
-        <article>
+        <article className='container my-3 flex justify-between items-center'>
             <h1><b>Portfolio</b></h1>
             <p><i>❆ These are some of my projects ❆</i></p>
             <div className='card-container'>
