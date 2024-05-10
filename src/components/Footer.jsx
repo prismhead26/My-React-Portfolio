@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+// Footer component to render the footer
 export default function Footer() {
     return (
         <footer className="container my-3 flex justify-between items-center">

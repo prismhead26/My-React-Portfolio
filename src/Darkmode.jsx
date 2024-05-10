@@ -9,6 +9,7 @@ import { useState } from "react";
 import { amber, blue, deepOrange, grey } from "@mui/material/colors";
 import FormControlLabel from "@mui/material/FormControlLabel";
 
+// Darkmode component
 function Darkmode() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const [mode, setMode] = useState(prefersDarkMode); // ['light', 'dark']
@@ -29,6 +30,7 @@ function Darkmode() {
   // console.log(mode);
 
   return (
+    // use ThemeProvider to apply the theme to the entire app
     <ThemeProvider theme={appTheme}>
       <GlobalStyles
         styles={{

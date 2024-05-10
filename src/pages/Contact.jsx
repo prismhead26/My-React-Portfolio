@@ -2,11 +2,12 @@
     import { useState } from 'react';
     import emailjs from '@emailjs/browser';
 
+    // Contact component to display a contact form and handle the form submission
     export default function Contact() {
         const [name, setName] = useState('');
         const [email, setEmail] = useState('');
         const [message, setMessage] = useState('');
-
+        // handle the form submission and send the email
         const handleSubmit = (e) => {
             e.preventDefault();
 

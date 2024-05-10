@@ -1,3 +1,4 @@
+// Card component is used to display the project cards on the portfolio page
 // variables for each card is passed is title, image, a tag link to live site
 export default function Card({ title, image, link, git }) {
     return (

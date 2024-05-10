@@ -1,8 +1,9 @@
 import Footer from "../components/Footer";
 import Profile from "../assets/profile.jpg";
 
+// About component to display information about the developer
 export default function About() {
-
+// image style
 const myStyle = {
     backgroundImage: `url(${Profile})`,
     backgroundSize: "cover",

@@ -3,7 +3,7 @@
 ## Description:
 The main goal of this project is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies.
 
-After completion of the project, I have a better understanding on building an entire full stack application with user authentication and third-party npm packages do improve the functionality and user experience. I also learned how to use route handlers effectively to access, and modify a database through http requests. And lastly I learned some better ways to access data through the DOM by using event delegation with the event target.
+After completion of the project, I have a better understanding on building an application with user React, Vite, and third-party npm packages to improve the functionality, user experience, and render the DOM. I also learned how to use route handlers effectively with react-router, using hooks that allow access to the state and other React features. And lastly I learned some better ways to manipulate the V-DOM by using event delegation and passing props to components, afterwards building and rendering to the DOM.
 
 ## Table of Contents:
 - [Installation Instructions](#Installation-Instructions)

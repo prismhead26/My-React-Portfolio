@@ -14,6 +14,7 @@ import Contact from './pages/Contact';
 import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
+// set up the router
 const router = createBrowserRouter([
   {
     path: '/',
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
     ],
   },
 ])
-
+// render the app
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   //   <App />
