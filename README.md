@@ -45,7 +45,7 @@ Features a Dark Mode Setting!
 ![Dark-Mode](./assets/images/darkMode.png)
 
 Netlify link:
-[Netlify Link]()
+[Netlify Link](https://aidens-react-portfolio.netlify.app/)
 
 ## Features:
 Javascript variables, destructuring, classes and constructors, promises, try/catch methods, async/await methods, event delegation, etc.
