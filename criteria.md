@@ -1,5 +1,3 @@
-You’ll deploy this application to Netlify. Follow the instructions in the Git Guide or consult the [Docs on Netlify](https://vitejs.dev/guide/static-deploy.html#netlify) to create a build that you can deploy.
-
 ## User Story
 
 ```md
