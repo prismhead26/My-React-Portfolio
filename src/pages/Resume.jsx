@@ -1,4 +1,5 @@
 import Footer from "../components/Footer";
+import ResumePdf from '../assets/ResumeOfficial.pdf';
 // resume component with a download resume button
 export default function Resume() {
   return (
@@ -9,7 +10,7 @@ export default function Resume() {
         </h1>
         <br/>
         <a
-          href="../assets/Resume/ResumeOfficial.pdf"
+          href={ResumePdf}
           download="ResumeOfficial.pdf"
         >
           <button className="custom-btn btn btn-primary text-center">
