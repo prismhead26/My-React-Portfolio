@@ -3,7 +3,7 @@
 ## Description:
 The main goal of this project is to create a portfolio using your new React skills, which will help set you apart from other developers whose portfolios don’t use the latest technologies.
 
-After completion of the project, I have a better understanding on building an application with user React, Vite, and third-party npm packages to improve the functionality, user experience, and render the DOM. I also learned how to use route handlers effectively with react-router, using hooks that allow access to the state and other React features. And lastly I learned some better ways to manipulate the V-DOM by using event delegation and passing props to components, afterwards building and rendering to the DOM.
+After completion of the project, I have a better understanding on building an application with user React, Vite, and third-party npm packages to improve the functionality, user experience, and render the DOM. I also learned how to use route handlers effectively with react-router, using hooks that allow access to the state and other React features. And lastly I learned some better ways to manipulate the V-DOM by using event delegation and passing props to components, afterwards building and rendering to the DOM. And I had a blast figuring out the dark mode feature as well as configuring the React set-up.
 
 ## Table of Contents:
 - [Installation Instructions](#Installation-Instructions)
@@ -38,11 +38,11 @@ Step 7: After the "VITE v5.2.10  ready in 267 ms" appears in the console, open t
 
 ## Links
 Screenshots:
-![Homepage](./assets/images/homepage.png)
+![About-Me](./assets/images/aboutMe.png)
 
-![Create](./assets/images/dashboard.png)
+Features a Dark Mode Setting!
 
-![Portfolio](./assets/images/blog.png)
+![Dark-Mode](./assets/images/darkMode.png)
 
 Netlify link:
 [Netlify Link]()
