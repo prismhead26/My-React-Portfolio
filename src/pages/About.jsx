@@ -16,7 +16,7 @@ const myStyle = {
 
   return (
     <>
-      <article className="container my-3 flex justify-between items-center">
+      <article className="container mt-3 flex justify-between items-center">
         <h1>
           <b>
             <i>About Me</i>
