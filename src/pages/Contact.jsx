@@ -1,4 +1,3 @@
-    import Footer from '../components/Footer';
     import { useState } from 'react';
     import emailjs from '@emailjs/browser';
 
@@ -69,10 +68,6 @@
                     </div>
                     <button className='custom-btn' type="submit">Send</button>
                 </form>
-
-                <div className='mx-3'>
-                    <Footer />
-                </div>
             </>
         );
     }

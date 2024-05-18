@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import ResumePdf from '../assets/ResumeOfficial.pdf';
 // resume component with a download resume button
 export default function Resume() {
@@ -50,9 +49,6 @@ export default function Resume() {
             </ul>
         </section>
       </section>
-      <div className="my-3">
-        <Footer />
-      </div>
     </>
   );
 }

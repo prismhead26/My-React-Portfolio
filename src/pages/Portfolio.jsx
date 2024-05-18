@@ -3,7 +3,6 @@ import appData from '../appData.js';
 const MAX_APPS = 3;
 
 import Card from '../components/Card';
-import Footer from '../components/Footer';
 
 export default function Portfolio() {
     return <>
@@ -16,8 +15,5 @@ export default function Portfolio() {
             ))}
             </div>
         </article>
-        <section className='m-3'>
-            <Footer/>
-        </section>
     </>
 }

@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import Profile from "../assets/profile.jpg";
 
 // About component to display information about the developer
@@ -42,9 +41,6 @@ const myStyle = {
               </b>
             </p>
           </div>
-          <section className="mx-3 col-md-12">
-            <Footer />
-          </section>
         </div>
       </article>
     </>
