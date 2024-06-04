@@ -1,6 +1,6 @@
 import appData from '../appData.js';
 
-const MAX_APPS = 3;
+const MAX_APPS = 5;
 
 import Card from '../components/Card';
 
