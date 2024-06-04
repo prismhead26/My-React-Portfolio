@@ -1,5 +1,11 @@
 const appData = [
     {
+        title: "iHike",
+        image: "/ihike.png",
+        link: "https://i-hike.onrender.com/",
+        git: "https://github.com/prismhead26/I-Hike"
+    },
+    {
         title: "Tech-Talk Blog",
         image: "/tech_talk.png",
         link: "https://tech-talk-blogger-726329b88ecf.herokuapp.com/",
@@ -18,16 +24,10 @@ const appData = [
         git: "https://github.com/prismhead26/Patient-Portal-App-Team-Colab"
     },
     {
-        title: "title v4",
-        image: "https://via.placeholder.com/150",
-        link: "https://www.google.com",
-        git: "test"
-    },
-    {
-        title: "title v5",
-        image: "https://via.placeholder.com/150",
-        link: "https://www.google.com",
-        git: "test"
+        title: "Weather Forecaster",
+        image: "/weather_forecaster.png",
+        link: "https://prismhead26.github.io/weatherForecaster/",
+        git: "https://github.com/prismhead26/weatherForecaster"
     },
     {
         title: "title v6",
