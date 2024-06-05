@@ -30,11 +30,11 @@ const appData = [
         git: "https://github.com/prismhead26/weatherForecaster"
     },
     {
-        title: "title v6",
-        image: "https://via.placeholder.com/150",
-        link: "https://www.google.com",
-        git: "test"
-    }
+        title: "Meal Planner App",
+        image: "/meal_planner.png",
+        link: "https://prismhead26.github.io/Meal-Planner-Project/",
+        git: "https://github.com/prismhead26/Meal-Planner-Project"
+    },
 ]
 
 export default appData;
