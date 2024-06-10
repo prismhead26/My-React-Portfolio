@@ -1,7 +1,7 @@
 const appData = [
     {
         title: "iHike",
-        image: "/ihike.png",
+        image: "/iHike.png",
         link: "https://i-hike.onrender.com/",
         git: "https://github.com/prismhead26/I-Hike"
     },

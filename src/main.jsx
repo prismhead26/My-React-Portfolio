@@ -11,7 +11,7 @@ import App from './Darkmode';
 import Error from './pages/Error';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Portfolio from './pages/Portfolio';
+import MyApps from './pages/MyApps';
 import Resume from './pages/Resume';
 
 // set up the router
@@ -30,8 +30,8 @@ const router = createBrowserRouter([
         element: <Contact/>,
       },
       {
-        path: '/portfolio',
-        element: <Portfolio/>,
+        path: '/myApps',
+        element: <MyApps/>,
       },
       {
         path: '/resume',

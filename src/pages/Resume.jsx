@@ -1,24 +1,32 @@
-import ResumePdf from '../assets/ResumeOfficial.pdf';
+import ResumePdf from "../assets/ResumeOfficial.pdf";
+import CoverLetterPdf from "../assets/CoverLetter.pdf";
+import CoverLetter from "../components/CoverLetter";
 // resume component with a download resume button
 export default function Resume() {
   return (
     <>
       <section className="container my-3 flex justify-between items-center">
         <h1>
-          <b><i>Resume</i></b>
+          <b>
+            <i>Resume</i>
+          </b>
         </h1>
-        <br/>
-        <a
-          href={ResumePdf}
-          download="ResumeOfficial.pdf"
-        >
+        <br />
+        <a href={CoverLetterPdf} download="CoverLetter.pdf">
           <button className="custom-btn btn btn-primary text-center">
+            Download Cover Letter
+          </button>
+        </a>
+        <br />
+        <a href={ResumePdf} download="ResumeOfficial.pdf">
+          <button className="custom-btn btn btn-primary text-center mt-3">
             Download Resume
           </button>
         </a>
-        <br/>
-        <section className="py-5 container flex justify-between items-center">
-          <h4><b><i>Front End Skills</i></b></h4>
+        <br />
+        {/* <section className="py-5 container flex justify-between items-center"> */}
+        <CoverLetter />
+        {/* <h4><b><i>Front End Skills</i></b></h4>
           <ul className="no-bullets">
             <li>HTML</li>
             <li>CSS</li>
@@ -46,10 +54,9 @@ export default function Resume() {
               <li>Unit Testing</li>
 
 
-            </ul>
-        </section>
+            </ul> */}
+        {/* </section> */}
       </section>
     </>
   );
 }
-

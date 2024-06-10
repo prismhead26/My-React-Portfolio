@@ -42,15 +42,15 @@ function Nav() {
               </li>
               <li className="custom mx-2 nav-item">
                 <Link
-                  to="/portfolio"
+                  to="/myApps"
                   className={
-                    currentPage === "/portfolio"
+                    currentPage === "/myApps"
                       ? "nav-link active"
                       : "nav-link"
                   }
                 >
                   <b>
-                    <i>Portfolio</i>
+                    <i>myApps</i>
                   </b>
                 </Link>
               </li>
