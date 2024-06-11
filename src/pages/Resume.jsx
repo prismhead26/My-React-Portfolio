@@ -1,5 +1,5 @@
-import ResumePdf from "../assets/ResumeOfficial.pdf";
-import CoverLetterPdf from "../assets/CoverLetter.pdf";
+import ResumePdf from "../assets/final_resume.pdf";
+import CoverLetterPdf from "../assets/final_cover_letter.pdf";
 import CoverLetter from "../components/CoverLetter";
 // resume component with a download resume button
 export default function Resume() {
@@ -12,13 +12,13 @@ export default function Resume() {
           </b>
         </h1>
         <br />
-        <a href={CoverLetterPdf} download="CoverLetter.pdf">
+        <a href={CoverLetterPdf} download="final_cover_letter.pdf">
           <button className="custom-btn btn btn-primary text-center">
             Download Cover Letter
           </button>
         </a>
         <br />
-        <a href={ResumePdf} download="ResumeOfficial.pdf">
+        <a href={ResumePdf} download="final_resume.pdf">
           <button className="custom-btn btn btn-primary text-center mt-3">
             Download Resume
           </button>
