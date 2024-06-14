@@ -64,10 +64,6 @@ const CoverLetter = () => {
                 Top Student Award, University of Kansas Full Stack JavaScript
                 Developer Bootcamp
               </li>
-              <li>
-                4.0 GPA, University of Kansas Full Stack JavaScript Developer
-                Bootcamp
-              </li>
             </ul>
           </div>
         </div>
